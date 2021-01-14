@@ -49,3 +49,7 @@ Thumbs.db
 # Test images
 
 test_set/
+
+
+
+API/__pycache__/
