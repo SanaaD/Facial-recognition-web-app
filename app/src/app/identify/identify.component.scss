@@ -1,0 +1,21 @@
+#img-container {
+    margin-top: 50px;
+    width: 50%;
+}
+
+#img-uploaded {
+    height: auto;
+    width: 100%;
+}
+
+.errMessage{
+    background-color: #ffd0d0;
+    padding: 15px 25px;
+    margin-bottom: 2px;
+}
+
+.errMessage > p{
+    margin: 0;
+    color: rgb(194, 0, 0);
+    font-size: 1.1em;
+}

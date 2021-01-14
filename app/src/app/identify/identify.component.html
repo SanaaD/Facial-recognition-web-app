@@ -1,0 +1,28 @@
+<div>
+    <h1>Identification</h1>
+    <div class="errMessage" *ngIf="errMessage">
+        <p>{{errMessage}}</p>
+    </div>
+    <div class="list-group-item">
+        <div class="upload-container">
+            <form #f="ngForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label> Photo </label>
+                    <input type="file" (change)="onFileSelected($event)" accept=".jpg,.jpeg,.png"
+                        [(ngModel)]='uploadedFileName' name="image">
+
+                    <div id="img-container" *ngIf="uploadedImg">
+                        <img id="img-uploaded" [src]="uploadedImg">
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Identifier</button>
+            </form>
+        </div>
+        <div class="result-container" *ngIf="resultImg">
+            <div id="img-container">
+                <h4>Résultat de l'indentification</h4>
+                <img id="img-uploaded" [src]="resultImg">
+            </div>
+        </div>
+    </div>
+</div>

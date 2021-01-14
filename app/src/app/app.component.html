@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row justify-content-start">
+    <div class="col">
+      <app-identify></app-identify>
+    </div>
+  </div>
+  <div class="row large-space">
+    <div class="col align-self-end">
+      <button class="btn btn-success" id="btn" (click)="onAfficherblock()" *ngIf="!block">Ajouter une
+        personne</button>
+      <button class="btn btn-danger" id="btn" (click)="onAfficherblock()" *ngIf="block">Annuler</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col" *ngIf="block">
+      <app-mon-premier></app-mon-premier>
+    </div>
+  </div>
+</div>
+
+<footer>
+
+</footer>

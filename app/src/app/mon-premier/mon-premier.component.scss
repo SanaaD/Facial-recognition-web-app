@@ -1,0 +1,41 @@
+.submit-btn{
+    margin-top: 25px;
+}
+
+#img-container {
+    margin-top: 50px;
+    width: 50%;
+}
+
+#img-uploaded {
+    height: auto;
+    width: 100%;
+}
+
+.form-item{
+    margin-top: 15px;
+}
+
+.err-message{
+    background-color: #ffd0d0;
+    padding: 15px 25px;
+    margin-bottom: 2px;
+}
+
+.err-message > p{
+    margin: 0;
+    color: rgb(194, 0, 0);
+    font-size: 1.1em;
+}
+
+.succ-message{
+    background-color: #e0ffd0;
+    padding: 15px 25px;
+    margin-bottom: 2px;
+}
+
+.succ-message > p{
+    margin: 0;
+    color: #2e7f04;
+    font-size: 1.1em;
+}

@@ -1,0 +1,37 @@
+<div>
+  <div class="succ-message" *ngIf="success">
+    <p>{{label}} a été ajouté à la base de données !</p>
+  </div>
+  <div class="err-message" *ngIf="errMessage">
+    <p>{{errMessage}}</p>
+  </div>
+  <div class="list-group-item">
+    <form #f="ngForm" (ngSubmit)="onSubmit()">
+
+      <div class="form-group">
+
+        <div class="form-item">
+          <label for="name">
+            Prénom
+          </label>
+          <input type="text" id="name" class="form-control" [(ngModel)]="name" name="name">
+        </div>
+        <div class="form-item">
+          <label> Photo </label>
+          <input type="file" (change)="onFileSelected($event)" accept=".jpg,.jpeg,.png" [(ngModel)]="uploadedFileName"
+            name="image">
+        </div>
+
+        <div id="img-container" *ngIf="uploadedImg">
+          <img id="img-uploaded" [src]="uploadedImg">
+        </div>
+
+      </div>
+
+      <div class="submit-btn">
+        <button class="btn btn-primary" type="submit">Ajouter</button>
+      </div>
+
+    </form>
+  </div>
+</div>
