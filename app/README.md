@@ -1,4 +1,20 @@
 # ReconnaissanceFacial
+Dans le cadre de notre Projet d’Approfondissement Scientifique, différents sujets, tous
+plus différents les uns des autres nous ont été proposés. Nous avons choisi le sujet sur la
+reconnaissance faciale car c’est tout d’abord une technologie très présente de nos jours mais
+aussi car nous voulions comprendre son fonctionnement et sa mise en place.
+Nous avons passé de nombreuses semaines à faire des recherches sur le sujet, afin
+de découvrir ce qui existe, comprendre et comparer les différentes technologies existantes.
+Ce jusqu’à obtenir les informations suffisantes pour savoir dans quelle direction nous voulions
+aller.
+Ainsi, nous avons beaucoup appris sur le sujet, notamment les problèmes d’éthique
+que ça engendre,les avantages et les dangers de cette technologie... Par la suite, nous avons
+développé notre propre application de reconnaissance faciale. Celle-ci est composée d’une
+api (Python) et d’une interface web (Angular).
+
+
+
+# ReconnaissanceFacial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
